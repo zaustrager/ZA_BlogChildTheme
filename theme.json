@@ -1,0 +1,427 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"version": 3,
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Albert Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "Albert Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/albert-sans/AlbertSans-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Albert Sans\", ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+					"name": "Albert Sans",
+					"slug": "default-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "STIX Two Text",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/stix-two-text/STIXTwoText-Italic-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "STIX Two Text",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/stix-two-text/STIXTwoText-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"STIX Two Text\", ui-serif, Georgia, serif",
+					"name": "STIX Two Text",
+					"slug": "default-serif"
+				},
+				{
+					"fontFamily": "ui-monospace, Menlo, Consolas, Monaco, \"Liberation Mono\", \"Lucida Console\", monospace",
+					"name": "System Monospace",
+					"slug": "system-monospace"
+				},
+				{
+					"fontFamily": "ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
+					"name": "System Sans Serif",
+					"slug": "system-sans-serif"
+				},
+				{
+					"fontFamily": "ui-serif, Georgia, serif",
+					"name": "System Serif",
+					"slug": "system-serif"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9At9Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9A99Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyCjA99Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyD9A99Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyDPA99Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAjBN9Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyAaBN9Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyB9BN9Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0mIpQlx3QUlC5A4PNB6Ryti20_6n1iPHjcz6L1SoM-jCpoiyBUBN9Y41P6zHtY.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDcf6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLce6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QGke6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QDce6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QAUe6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QOkZ6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QNAZ6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QLcZ6VLYyWtY1rI.woff2"
+						},
+						{
+							"fontFamily": "\"Noto Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/o-0kIpQlx3QUlC5A4PNr4C5OaxRsfNNlKbCePevHtVtX57DGjDU1QJ4Z6VLYyWtY1rI.woff2"
+						}
+					],
+					"fontFamily": "\"Noto Sans\", sans-serif",
+					"name": "Noto Sans",
+					"slug": "noto-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCs-xNNww_2s0amA9v2s13DY_etWWIJ.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCs-xNNww_2s0amA9uSsF3DY_etWWIJ.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCr-xNNww_2s0amA-M7mHnOSOuk.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCs-xNNww_2s0amA9vKsV3DY_etWWIJ.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCs-xNNww_2s0amA9vmtl3DY_etWWIJ.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCs-xNNww_2s0amA9uCt13DY_etWWIJ.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCs-xNNww_2s0amA9uetF3DY_etWWIJ.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCu-xNNww_2s0amA9M8qrXHafaPXHIJErY.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCu-xNNww_2s0amA9M8qtHEafaPXHIJErY.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCt-xNNww_2s0amA9M8knjsTfukQHs.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCu-xNNww_2s0amA9M8qonFafaPXHIJErY.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCu-xNNww_2s0amA9M8qqXCafaPXHIJErY.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCu-xNNww_2s0amA9M8qsHDafaPXHIJErY.woff2"
+						},
+						{
+							"fontFamily": "Spectral",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/rnCu-xNNww_2s0amA9M8qt3AafaPXHIJErY.woff2"
+						}
+					],
+					"fontFamily": "Spectral, serif",
+					"name": "Spectral",
+					"slug": "spectral"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/wlp2gwHKFkZgtmSR3NB0oRJvbQJSA_JN3Q.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/wlppgwHKFkZgtmSR3NB0oRJXsCx2DtlR1LFffg.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/wlppgwHKFkZgtmSR3NB0oRJX1C12DtlR1LFffg.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/wlpogwHKFkZgtmSR3NB0oRJfaghTIfdd3ahG.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/wlprgwHKFkZgtmSR3NB0oRJfajCOD9NQ9rRPfrKu.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Text\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/wlprgwHKFkZgtmSR3NB0oRJfajDqDtNQ9rRPfrKu.woff2"
+						}
+					],
+					"fontFamily": "\"Crimson Text\", serif",
+					"name": "Crimson Text",
+					"slug": "crimson-text"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTm18PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZkG18PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZzm18PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZ_G18PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZEGp8PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZKWp8PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZTmp8PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uUsoa5M_tv7IihmnkabC5XiXCAlXGks1WZZ2p8PZE_VNWoyQ.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4Ue5s-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi7Ke5s-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6Ue5s-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi6me5s-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5KfJs-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi5zfJs-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi4UfJs-dtC4yZNE.woff2"
+						},
+						{
+							"fontFamily": "\"Crimson Pro\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": "https://blog.zacharyaustrager.com/wp-content/uploads/fonts/q5uSsoa5M_tv7IihmnkabAReu49Y_Bo-HVKMBi49fJs-dtC4yZNE.woff2"
+						}
+					],
+					"fontFamily": "\"Crimson Pro\", serif",
+					"name": "Crimson Pro",
+					"slug": "crimson-pro"
+				}
+			]
+		}
+	}
+}
