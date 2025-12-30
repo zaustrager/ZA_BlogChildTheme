@@ -15,8 +15,8 @@ Child theme of Anders Noren's "Beaumont" model.
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial release
+= 1.0.05 =
+* Initial release onto GitHub
 
 
 == Copyright ==
