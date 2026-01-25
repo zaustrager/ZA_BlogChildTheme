@@ -423,5 +423,10 @@
 				}
 			]
 		}
+	},
+	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--black)"
+		}
 	}
 }
