@@ -15,8 +15,8 @@ Child theme of Anders Noren's "Beaumont" model.
 
 == Changelog ==
 
-= 1.0.201 =
-* Continued updates to assets/name systems as needed
+= 1.0.300 =
+* Update placeholder assets, alongside margins, padding, and other design styles.
 
 
 == Copyright ==
